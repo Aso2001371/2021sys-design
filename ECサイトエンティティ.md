@@ -3,8 +3,7 @@
 @startuml
 
 /'
-  図の中で目立たせたいエンティティに着色するための
-  色の名前（定数）を定義できます。
+  
   https://plantuml.com/ja/skinparam
 '/
 
