@@ -33,12 +33,6 @@
 |削除フラグ| del_flag | int(11) | | | |
 |登録日| reg_date | date | | 〇| |
 
-### カテゴリマスタ(m_category)
-|和名| 属性名(カラム名) | 型 | PK | NN | FK |
-|----|-------|-----|---|----|----|
-|カテゴリID| category_id | int(11) | 〇| 〇| |
-|カテゴリ名| name | varchar(20) | | 〇| |
-|登録日| reg_date | date | | 〇| |
 
 ### 商品マスタ(m_items)
 |和名| 属性名(カラム名) | 型 | PK | NN | FK |
