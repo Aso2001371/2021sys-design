@@ -29,6 +29,7 @@
 |氏名| name | varchar(20) | | 〇| |
 |住所| address | varchar(100) | | 〇| |
 |電話番号| tel| varchar(20) | | 〇| |
+|カード番号|card_number|verchar(30)|-|〇|-|
 |メールアドレス| mail | varchar(100) | | 〇| |
 |削除フラグ| del_flag | int(11) | | | |
 |登録日| reg_date | date | | 〇| |
@@ -40,7 +41,6 @@
 |商品コード| item_code | int(11) | 〇| 〇| |
 |商品名| item_name| varchar(50) | | 〇| |
 |価格| price | int(11) | | 〇| |
-|カテゴリID| category_id | int(11) | | 〇| 〇|
 |画像ファイル名| image | varchar(200) | | 〇| |
 |商品詳細説明| detail | varchar(500) | | | |
 |削除フラグ| del_flag | int(11) | | | |
